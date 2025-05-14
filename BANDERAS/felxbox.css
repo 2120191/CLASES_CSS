@@ -1,0 +1,54 @@
+.bandera{
+    height: 600px;
+    background: white;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    height: 400px;
+    width: 350px;
+    background: red;
+    margin: 0px;
+    border: 1px solid #000;
+} 
+.blanco{
+    height: 400px;
+    width: 350px;
+    background: white;
+    margin: 0px;
+    border: 1px solid #000; 
+}
+
+.bandera2 {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+.arriba {
+height: 50%;
+display: flex;
+}
+.azul {
+    width: 33%;
+    background: #0033a0;
+    position: relative;
+}
+.estrella {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+}
+.blanco {
+    width: 67%;
+    background: white;
+}
+.rojo {
+    height: 50%;
+    background: #d52b1e;
+}
