@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: o;
+}
+:root{
+    --rojo:rgba(235, 13, 13, 0.966);
+    --amarillo:yellow;
+    --verde:rgb(12, 182, 40);
+}
+main{
+    height: 100vh;
+    display: flex;  
+    flex-direction: row;
+}
+section{
+    height: 100%;
+    width: 33%;
+    margin: 3px;
+}
+.fondo_amarillo{
+    background: var(--amarillo);
+}
+.fondo_rojo{
+    background: var(--rojo);
+}
+.fondo_verde{
+    background: var(--verde);
+}
+@media(max-width:760px){
+    main{
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+    .fondo_rojo{
+        display: none;
+    }
+}
+

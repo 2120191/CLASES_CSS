@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: green;
+}
+
+.figura {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    transition: all 6s ;
+}
+
+.figura.hover {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #3498db;
+    rotate: 45deg;
+}
